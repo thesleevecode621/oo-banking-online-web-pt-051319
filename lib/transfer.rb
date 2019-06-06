@@ -12,5 +12,6 @@ class Transfer
   end
 def execute_transaction
 if valid? && balance > amount && self.status == pending
+  
 end
 end 
