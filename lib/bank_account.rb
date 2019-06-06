@@ -10,5 +10,7 @@ def deposit(balance)
   @balance += balance
   @balance
 end 
-def 
+def display_balance
+  self.balance
+end 
 end 
