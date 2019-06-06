@@ -8,9 +8,11 @@ def initialize(name,balance=1000,status = "open")
 end
 def deposit(balance)
   @balance += balance
-  @balance
+  
 end
-
+def withdrawal(amount)
+    self.balance -= amount
+  end
 def display_balance
  "Your balance is $#{self.balance}."
 end 
