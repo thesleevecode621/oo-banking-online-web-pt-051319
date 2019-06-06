@@ -10,4 +10,5 @@ def deposit(balance)
   @balance += balance
   @balance
 end 
+def 
 end 
