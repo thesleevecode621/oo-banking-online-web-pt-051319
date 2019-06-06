@@ -6,4 +6,5 @@ def initialize(name,balance=1000,status = "open")
   @balance = balance
   @status = status
 end
+
 end 
