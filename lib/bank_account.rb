@@ -11,6 +11,6 @@ def deposit(balance)
   @balance
 end 
 def display_balance
-  self.balance
+ "Your balance is $#{self.balance}"
 end 
 end 
